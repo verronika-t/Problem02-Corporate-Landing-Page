@@ -1,0 +1,208 @@
+@font-face {
+    font-family: "Ubuntu";
+    src: url(02.CorporateLandingPage-Resources/Ubuntu-Regular.ttf);
+}
+
+
+/* GENERAL */
+
+#wrapper {
+    width: 1000px;
+    margin-left: 100px;
+}
+
+header {
+    background-color: blue;
+    background-image: linear-gradient(to right, rgb(128, 128, 173), rgb(111, 194, 241));
+}
+
+
+/* HEADER NAV */
+
+.right_nav p:hover,
+.left_nav p:hover {
+    color: rgb(90, 248, 232);
+    cursor: pointer;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: Ubuntu;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.right_nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left_nav {
+    margin-left: 100px;
+}
+
+.right_nav p {
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-bottom: 1px;
+}
+
+
+/* HEADER TITLE */
+
+.big_slogan {
+    font-family: Ubuntu;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-size: 60px;
+    color: rgb(90, 248, 232);
+    text-align: center;
+    margin-bottom: 0px;
+    text-decoration: bold;
+}
+
+.small_slogan {
+    font-family: Ubuntu;
+    color: white;
+    word-spacing: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 0px;
+}
+
+.title {
+    font-family: Ubuntu;
+    font-size: 54px;
+    color: white;
+    text-align: center;
+}
+
+button {
+    background-color: transparent;
+    width: 200px;
+    font-size: 20px;
+    font-family: Ubuntu;
+    color: white;
+    text-align: center;
+    margin-left: 400px;
+    border: 1px solid white;
+}
+
+button:hover {
+    background-color: rgb(90, 248, 232);
+    color: rgb(78, 78, 78);
+    cursor: pointer;
+}
+
+.smth {
+    color: white;
+    font-family: Ubuntu;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.smth:hover {
+    color: rgb(90, 248, 232);
+    cursor: pointer;
+}
+
+
+/* MAIN */
+
+.main_titles {
+    color: rgb(78, 78, 78);
+    font-family: Ubuntu;
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.content,
+.text {
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    color: rgb(78, 78, 78);
+    text-align: center;
+}
+
+.content_title {
+    color: rgb(78, 78, 78);
+    font-family: Ubuntu;
+    font-size: 20px;
+    text-align: center;
+}
+
+.read {
+    margin-top: 1px;
+    color: rgb(119, 202, 228);
+    text-align: center;
+}
+
+.read:hover {
+    color: rgb(90, 248, 232);
+    cursor: pointer;
+}
+
+.red {
+    background-color: rgb(241, 98, 127);
+    color: white;
+    font-family: Ubuntu;
+    font-size: 24px;
+    text-align: center;
+    height: 45px;
+}
+
+.clients_review {
+    display: flex;
+    justify-content: center;
+}
+
+.clients_review .div {
+    display: flex;
+    background-color: rgb(224, 224, 224);
+}
+
+.div .review_title {
+    color: rgb(78, 78, 78);
+    font-family: Ubuntu;
+    font-size: 17px;
+    margin-left: 3px;
+}
+
+.div p {
+    color: rgb(78, 78, 78);
+    font-family: Ubuntu;
+    font-size: 13px;
+}
+
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34, 34, 34);
+}
+
+footer div p {
+    margin-left: 50px;
+    color: rgb(128, 128, 128);
+    margin-right: 50px;
+    font-size: 13px;
+}
